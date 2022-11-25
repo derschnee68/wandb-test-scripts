@@ -3,7 +3,7 @@ import pickle
 
 wandb.login()
 
-with wandb.init(project="artifacts-example", job_type="load-data") as run:
+with wandb.init(project="test-project", job_type="load-data") as run:
     fake_dataset = {"labels": [0,1],"inputs":[False,True]}
     raw_data = wandb.Artifact("test-ds", type="dataset")
 
