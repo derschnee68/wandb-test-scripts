@@ -2,7 +2,7 @@ import wandb
 import time
 
 
-wandb.login()
+wandb.login(key="386b13a786fcc130351f4b73f8db5d8ed7ede9fb")
 
 
 run = wandb.init(project="test-project")
